@@ -1,0 +1,86 @@
+
+
+.container {
+    max-width: 1400px !important;
+    margin: 0 auto;
+}
+
+.py-5 {
+    padding: 3rem 0 !important;
+}
+
+.padding_container {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.title h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 15px;
+}
+
+/* HEADER */
+
+
+#no-results {
+    transition: opacity 0.2s ease;
+}
+
+
+@media (min-width: 1279px) {
+    .header_button ul li {
+      margin-left: 200px;
+    }
+
+    .relative ul li {
+        margin-left: 0;
+    }
+
+}
+
+/* CAROUSEL */
+
+.carousel {
+    padding-top: 150px !important;
+}
+
+/* BRANDS */
+
+.brands {
+    margin-top: 60px;
+}
+
+/* FEATURES */
+
+.text_part h3 {
+    padding: 7px 15px;
+    font-weight: 500;
+}
+
+.features_cards img {
+    position: relative;
+    display: flex;
+    height: 4rem;         
+    width: 4rem;   
+    padding: 15px;        
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 4px;
+    background-color: #006BFF;
+}
+
+.card_img {
+    width: 36px;
+    height: 36px;
+}
+
+/* SOLUTIONS */
