@@ -154,153 +154,12 @@
 										class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700">
 										Sign Up
 									</button>
-								</li><!-- thẻ div form này mặc định hidden chỉ hiển thị form search khi ấn vào button search -->
-								<div id="search-modal" class=" fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 hidden">
-									<div class="items-center bg-[#f6f6f6] dark:bg-[#181C31] p-6 rounded-lg shadow-lg w-full max-w-xl relative">
-										<form id="results-wrapper" class="w-full max-h-[900px] overflow-y-auto">   
-											<label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white ">Search</label>
-											<div class="relative">
-												<div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-													<svg class="w-4 h-4 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-														<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
-													</svg>
-												</div>
-												<input type="text" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Entire Site | Products, Docs, Pages ...
-												" required />
-											</div>
-											<!-- danh sách gợi ý tìm kiếm -->
-											<div class="relative min-h-[900px]">
-												<div id="search-results" class="mt-4 flex flex-col gap-2 justify-center">
-													<a href="https://solid.nextjstemplates.com/docs/tailwind-template" class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													  Using Tailwind Templates
-													  <div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/tailwind-template</span></span></div></div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/docs/tailwind-component" class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													  Using Tailwind Components
-													  <div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/tailwind-component</span></span></div></div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/docs/style-guide" class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													  Style Guide
-													  <div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/style-guide</span></span></div></div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/docs/contact-form" class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													  Configuring Contact Form
-													  <div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/contact-form</span></span></div></div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/docs/bootstrap-template" class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													  Bootstrap Template Guide
-													  <div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/bootstrap-template</span></span></div></div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/blog/uiux-design-allows-companies-to-establish-a-unique-and-recognizable-brand-identity">
-														<div class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
-															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
-																<img src="./img/item1.png" alt="" class="object-cover w-full h-full" >
-															</div>
-															<div>
-																<h3>
-																	UI/UX design allows companies to establish a unique and recognizable brand identity.
-																</h3>
-																<div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/uiux-design-allows-companies-to-establish-a-unique-and-recognizable-brand-identity</span></span></div></div>
-															</div>
-														</div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/blog/tips-to-quickly-improve-your-coding-speed-in-2025-by-traversy-media">
-														<div class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
-															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
-																<img src="./img/item2.png" alt="" class="object-cover w-full h-full" >
-															</div>
-															<div>
-																<h3>
-																	Tips to quickly improve your coding speed in 2025 by Traversy media
-																</h3>
-																<div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/tips-to-quickly-improve-your-coding-speed-in-2025-by-traversy-media</span></span></div></div>
-															</div>
-														</div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/blog/the-rise-of-saas-startups-revolutionizing-business-solutions">
-														<div class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
-															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
-																<img src="./img/item3.png" alt="" class="object-cover w-full h-full" >
-															</div>
-															<div>
-																<h3>
-																	The Rise of SaaS Startups: Revolutionizing Business Solutions
-																</h3>
-																<div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/the-rise-of-saas-startups-revolutionizing-business-solutions</span></span></div></div>
-															</div>
-														</div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/blog/uiux-design-allows-companies-to-establish-a-unique-and-recognizable-brand-identity">
-														<div class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
-															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
-																<img src="./img/item4.png" alt="" class="object-cover w-full h-full" >
-															</div>
-															<div>
-																<h3>
-																	The Power of UI/UX: Elevating Digital Experiences
-																</h3>
-																<div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/the-power-of-uiux-elevating-digital-experiences</span></span></div></div>
-															</div>
-														</div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/blog/the-mern-stack-has-become-a-go-to-choice-for-modern-web-development-projects">
-														<div class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
-															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
-																<img src="./img/item5.png" alt="" class="object-cover w-full h-full" >
-															</div>
-															<div>
-																<h3>
-																	The MERN stack has become a go-to choice for modern web development projects
-																</h3>
-																<div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/the-mern-stack-has-become-a-go-to-choice-for-modern-web-development-projects</span></span></div></div>
-															</div>
-														</div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/blog/exploring-the-mern-stack-powering-modern-web-development">
-														<div class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
-															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
-																<img src="./img/item6.png" alt="" class="object-cover w-full h-full" >
-															</div>
-															<div>
-																<h3>
-																	Exploring MERN Stack: Powering Modern Web Development
-																</h3>
-																<div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/exploring-the-mern-stack-powering-modern-web-development</span></span></div></div>
-															</div>
-														</div>
-													</a>
-													<a href="https://solid.nextjstemplates.com/blog/best-ui-components-for-modern-websites">
-														<div class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
-															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
-																<img src="./img/item7.png" alt="" class="object-cover w-full h-full" >
-															</div>
-															<div>
-																<h3>
-																	Test webhook
-																</h3>
-																<div class="text-body-color flex text-sm"><div><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">docs</span></span></div><div>: <span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/best-ui-components-for-modern-websites</span></span></div></div>
-															</div>
-														</div>
-													</a>
-													
-													
-													
-												</div>
-												<!-- hidden thẻ p khi ko tìm thấy danh sách -->
-												<p id="no-results" class="mt-4 text-center text-gray-500 dark:text-gray-400 hidden">
-													No item found...
-												</p>
-											</div>
-										</form>
-									</div>
-								</div>
-								
-								<!-- thẻ div form này mặc định hidden chỉ hiển thị form search khi ấn vào button search -->
+								</li>
 								<div id="search-modal"
-									class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 hidden">
+									class=" fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 hidden">
 									<div
 										class="items-center bg-[#f6f6f6] dark:bg-[#181C31] p-6 rounded-lg shadow-lg w-full max-w-xl relative">
-										<form class="w-full h-200">
+										<form id="results-wrapper" class="w-full max-h-[900px] overflow-y-auto">
 											<label for="default-search"
 												class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white ">Search</label>
 											<div class="relative">
@@ -320,74 +179,245 @@
 												" required />
 											</div>
 											<!-- danh sách gợi ý tìm kiếm -->
-											<div id="search-results" class="mt-4 flex flex-col gap-2 justify-center">
-												<a href="https://solid.nextjstemplates.com/docs/tailwind-template"
-													class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													Using Tailwind Templates
-													<div class="text-body-color flex text-sm">
-														<div><span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">docs</span></span>
+											<div class="relative min-h-[900px]">
+												<div id="search-results"
+													class="mt-4 flex flex-col gap-2 justify-center">
+													<a href="https://solid.nextjstemplates.com/docs/tailwind-template"
+														class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
+														Using Tailwind Templates
+														<div class="text-body-color flex text-sm">
+															<div><span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">docs</span></span>
+															</div>
+															<div>: <span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/tailwind-template</span></span>
+															</div>
 														</div>
-														<div>: <span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/tailwind-template</span></span>
+													</a>
+													<a href="https://solid.nextjstemplates.com/docs/tailwind-component"
+														class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
+														Using Tailwind Components
+														<div class="text-body-color flex text-sm">
+															<div><span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">docs</span></span>
+															</div>
+															<div>: <span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/tailwind-component</span></span>
+															</div>
 														</div>
-													</div>
-												</a>
-												<a href="https://solid.nextjstemplates.com/docs/tailwind-component"
-													class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													Using Tailwind Components
-													<div class="text-body-color flex text-sm">
-														<div><span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">docs</span></span>
+													</a>
+													<a href="https://solid.nextjstemplates.com/docs/style-guide"
+														class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
+														Style Guide
+														<div class="text-body-color flex text-sm">
+															<div><span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">docs</span></span>
+															</div>
+															<div>: <span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/style-guide</span></span>
+															</div>
 														</div>
-														<div>: <span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/tailwind-component</span></span>
+													</a>
+													<a href="https://solid.nextjstemplates.com/docs/contact-form"
+														class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
+														Configuring Contact Form
+														<div class="text-body-color flex text-sm">
+															<div><span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">docs</span></span>
+															</div>
+															<div>: <span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/contact-form</span></span>
+															</div>
 														</div>
-													</div>
-												</a>
-												<a href="https://solid.nextjstemplates.com/docs/style-guide"
-													class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													Style Guide
-													<div class="text-body-color flex text-sm">
-														<div><span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">docs</span></span>
+													</a>
+													<a href="https://solid.nextjstemplates.com/docs/bootstrap-template"
+														class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
+														Bootstrap Template Guide
+														<div class="text-body-color flex text-sm">
+															<div><span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">docs</span></span>
+															</div>
+															<div>: <span class="ais-Highlight"><span
+																		class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/bootstrap-template</span></span>
+															</div>
 														</div>
-														<div>: <span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/style-guide</span></span>
+													</a>
+													<a
+														href="https://solid.nextjstemplates.com/blog/uiux-design-allows-companies-to-establish-a-unique-and-recognizable-brand-identity">
+														<div
+															class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
+															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
+																<img src="./img/item1.png" alt=""
+																	class="object-cover w-full h-full">
+															</div>
+															<div>
+																<h3>
+																	UI/UX design allows companies to establish a unique
+																	and recognizable brand identity.
+																</h3>
+																<div class="text-body-color flex text-sm">
+																	<div><span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">docs</span></span>
+																	</div>
+																	<div>: <span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/uiux-design-allows-companies-to-establish-a-unique-and-recognizable-brand-identity</span></span>
+																	</div>
+																</div>
+															</div>
 														</div>
-													</div>
-												</a>
-												<a href="https://solid.nextjstemplates.com/docs/contact-form"
-													class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													Configuring Contact Form
-													<div class="text-body-color flex text-sm">
-														<div><span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">docs</span></span>
+													</a>
+													<a
+														href="https://solid.nextjstemplates.com/blog/tips-to-quickly-improve-your-coding-speed-in-2025-by-traversy-media">
+														<div
+															class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
+															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
+																<img src="./img/item2.png" alt=""
+																	class="object-cover w-full h-full">
+															</div>
+															<div>
+																<h3>
+																	Tips to quickly improve your coding speed in 2025 by
+																	Traversy media
+																</h3>
+																<div class="text-body-color flex text-sm">
+																	<div><span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">docs</span></span>
+																	</div>
+																	<div>: <span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/tips-to-quickly-improve-your-coding-speed-in-2025-by-traversy-media</span></span>
+																	</div>
+																</div>
+															</div>
 														</div>
-														<div>: <span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/contact-form</span></span>
+													</a>
+													<a
+														href="https://solid.nextjstemplates.com/blog/the-rise-of-saas-startups-revolutionizing-business-solutions">
+														<div
+															class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
+															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
+																<img src="./img/item3.png" alt=""
+																	class="object-cover w-full h-full">
+															</div>
+															<div>
+																<h3>
+																	The Rise of SaaS Startups: Revolutionizing Business
+																	Solutions
+																</h3>
+																<div class="text-body-color flex text-sm">
+																	<div><span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">docs</span></span>
+																	</div>
+																	<div>: <span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/the-rise-of-saas-startups-revolutionizing-business-solutions</span></span>
+																	</div>
+																</div>
+															</div>
 														</div>
-													</div>
-												</a>
-												<a href="https://solid.nextjstemplates.com/docs/bootstrap-template"
-													class="bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500 text-xl">
-													Bootstrap Template Guide
-													<div class="text-body-color flex text-sm">
-														<div><span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">docs</span></span>
+													</a>
+													<a
+														href="https://solid.nextjstemplates.com/blog/uiux-design-allows-companies-to-establish-a-unique-and-recognizable-brand-identity">
+														<div
+															class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
+															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
+																<img src="./img/item4.png" alt=""
+																	class="object-cover w-full h-full">
+															</div>
+															<div>
+																<h3>
+																	The Power of UI/UX: Elevating Digital Experiences
+																</h3>
+																<div class="text-body-color flex text-sm">
+																	<div><span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">docs</span></span>
+																	</div>
+																	<div>: <span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/the-power-of-uiux-elevating-digital-experiences</span></span>
+																	</div>
+																</div>
+															</div>
 														</div>
-														<div>: <span class="ais-Highlight"><span
-																	class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/docs/bootstrap-template</span></span>
+													</a>
+													<a
+														href="https://solid.nextjstemplates.com/blog/the-mern-stack-has-become-a-go-to-choice-for-modern-web-development-projects">
+														<div
+															class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
+															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
+																<img src="./img/item5.png" alt=""
+																	class="object-cover w-full h-full">
+															</div>
+															<div>
+																<h3>
+																	The MERN stack has become a go-to choice for modern
+																	web development projects
+																</h3>
+																<div class="text-body-color flex text-sm">
+																	<div><span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">docs</span></span>
+																	</div>
+																	<div>: <span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/the-mern-stack-has-become-a-go-to-choice-for-modern-web-development-projects</span></span>
+																	</div>
+																</div>
+															</div>
 														</div>
-													</div>
-												</a>
-											</div>
-											<!-- hidden thẻ p khi ko tìm thấy danh sách -->
-											<p id="no-results"
-												class="mt-4 text-center text-gray-500 dark:text-gray-400 hidden">
-												No item found...
-											</p>
+													</a>
+													<a
+														href="https://solid.nextjstemplates.com/blog/exploring-the-mern-stack-powering-modern-web-development">
+														<div
+															class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
+															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
+																<img src="./img/item6.png" alt=""
+																	class="object-cover w-full h-full">
+															</div>
+															<div>
+																<h3>
+																	Exploring MERN Stack: Powering Modern Web
+																	Development
+																</h3>
+																<div class="text-body-color flex text-sm">
+																	<div><span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">docs</span></span>
+																	</div>
+																	<div>: <span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/exploring-the-mern-stack-powering-modern-web-development</span></span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</a>
+													<a
+														href="https://solid.nextjstemplates.com/blog/best-ui-components-for-modern-websites">
+														<div
+															class="flex items-center gap-5 bg-[#f6f6f6] text-gray-800 px-4 py-2 rounded hover:bg-gray-200 dark:bg-[#181C31] dark:text-white dark:hover:bg-gray-500">
+															<div class="h-[70px] w-[180px] overflow-hidden rounded-lg">
+																<img src="./img/item7.png" alt=""
+																	class="object-cover w-full h-full">
+															</div>
+															<div>
+																<h3>
+																	Test webhook
+																</h3>
+																<div class="text-body-color flex text-sm">
+																	<div><span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">docs</span></span>
+																	</div>
+																	<div>: <span class="ais-Highlight"><span
+																				class="ais-Highlight-nonHighlighted">https://solid.nextjstemplates.com/blog/best-ui-components-for-modern-websites</span></span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</a>
 
+
+
+												</div>
+												<!-- hidden thẻ p khi ko tìm thấy danh sách -->
+												<p id="no-results"
+													class="mt-4 text-center text-gray-500 dark:text-gray-400 hidden">
+													No item found...
+												</p>
+											</div>
 										</form>
 									</div>
 								</div>
@@ -899,6 +929,97 @@
 		</div>
 	</section>
 
+
+	<!-- question   -->
+	<!-- title left  -->
+	<section class="packed py-5 padding_container">
+		<div class="container md:px-8 xl:px-0">
+			<div class="flex items-center gap-8 lg:gap-32.5">
+				<div class="packed_text wow animate__animated animate__fadeInLeft md:w-1/2">
+					<h4 class="font-5xl mb-3 uppercase text-black dark:text-white">OUR FAQS</h4>
+					<h2 class="mb-7 text-5xl font-bold text-black dark:text-white xl:text-hero">Frequently
+						AskedQuestions</h2>
+					<a
+						class="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-[#406BFA] dark:text-white dark:hover:text-[#406BFA]">
+						<span class="duration-300 text-lg group-hover:pr-2">Know More</span>
+						<i class="fa-solid fa-arrow-right"></i>
+					</a>
+				</div>
+
+
+				<!-- MENU right -->
+				<div class="packed_img wow animate__animated animate__fadeInRight mx-auto hidden md:block md:w-1/2">
+					<div id="accordion-color" data-accordion="collapse"
+						class="bg-white dark:bg-[#1C2136] border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden divide-y divide-gray-300 dark:divide-gray-700">
+						<!-- Item 1 -->
+						<h2 id="heading-1">
+							<button type="button" data-accordion-target="#body-1" aria-expanded="false"
+								aria-controls="body-1"
+								class="flex items-center justify-between w-full px-5 h-20 text-black dark:text-white focus:outline-none">
+								<span class="text-black dark:text-white">Lorem ipsum dolor sit amet, consectetur</span>
+								<svg data-accordion-icon class="w-4 h-4 rotate-180 shrink-0 text-black dark:text-white"
+									xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+										stroke-width="2" d="M9 5 5 1 1 5" />
+								</svg>
+							</button>
+						</h2>
+						<div id="body-1" class="hidden" aria-labelledby="heading-1">
+							<div class="px-5 py-4 bg-white dark:bg-[#1C2136] text-gray-600 dark:text-gray-400">
+								<p>
+									We provide digital experience services to startups and small businesses…
+								</p>
+							</div>
+						</div>
+
+						<!-- Item 2 -->
+						<h2 id="heading-2">
+							<button type="button" data-accordion-target="#body-2" aria-expanded="false"
+								aria-controls="body-2"
+								class="flex items-center justify-between w-full px-5 h-20 text-black dark:text-white focus:outline-none">
+								<span class="text-black dark:text-white">Lorem ipsum dolor sit amet, consectetur</span>
+								<svg data-accordion-icon class="w-4 h-4 rotate-180 shrink-0 text-black dark:text-white"
+									xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+										stroke-width="2" d="M9 5 5 1 1 5" />
+								</svg>
+							</button>
+						</h2>
+						<div id="body-2" class="hidden" aria-labelledby="heading-2">
+							<div class="px-5 py-4 bg-white dark:bg-[#1C2136] text-gray-600 dark:text-gray-400">
+								<p>
+									We provide digital experience services to startups and small businesses…
+								</p>
+							</div>
+						</div>
+
+						<!-- Item 3 -->
+						<h2 id="heading-3">
+							<button type="button" data-accordion-target="#body-3" aria-expanded="false"
+								aria-controls="body-3"
+								class="flex items-center justify-between w-full px-5 h-20 text-black dark:text-white focus:outline-none">
+								<span class="text-black dark:text-white">Lorem ipsum dolor sit amet, consectetur</span>
+								<svg data-accordion-icon class="w-4 h-4 rotate-180 shrink-0 text-black dark:text-white"
+									xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+										stroke-width="2" d="M9 5 5 1 1 5" />
+								</svg>
+							</button>
+						</h2>
+						<div id="body-3" class="hidden" aria-labelledby="heading-3">
+							<div class="px-5 py-4 bg-white dark:bg-[#1C2136] text-gray-600 dark:text-gray-400">
+								<p>
+									We provide digital experience services to startups and small businesses…
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
 	<!-- ========== 1. ESTIMONIALS ========== -->
 	<section class="productivity overflow-hidden px-4 py-20 md:px-8 lg:py-25 xl:py-30 2xl:px-0">
 		<div class="container relative">
@@ -914,7 +1035,7 @@
 			</div>
 
 			<!-- Swiper for Testimonials -->
-			<div class="swiper testimonialsSwiper">
+			<div class="swiper testimonialsSwiper wow animate__animated animate__fadeInDown">
 				<div class="swiper-wrapper">
 
 					<!-- ========= SLIDE 1 ========= -->
@@ -1053,14 +1174,13 @@
 
 	</section>
 
-
 	<!-- ========== 2. PRICING ========== -->
 	<section class="productivity overflow-hidden px-4 py-20 md:px-8 lg:py-25 xl:py-30 2xl:px-0">
 		<div class="container relative">
 			<div class="wow animate__animated animate__fadeInDown  text_part flex flex-col items-center gap-5 pb-10">
 				<h3
 					class="inline-block rounded-full bg-[#EDF5FF] text-black border border-gray-200 duration-300 ease-in-out dark:bg-[#181C31] dark:text-white dark:border-gray-600">
-					INTEGRATIONS</h3>
+					PRICING PLANS</h3>
 				<h1 class="text-5xl font-bold text-black dark:text-white text-center mb-2">Simple Pricing</h1>
 				<p class="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%] text-gray-500 text-center">Lorem ipsum dolor sit amet,
 					consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
@@ -1069,7 +1189,7 @@
 			</div>
 
 			<!-- Pricing Cards -->
-			<div class="mx-auto grid max-w-6xl gap-8 px-4 sm:grid-cols-2 lg:grid-cols-3">
+			<div class="mx-auto wow animate__animated animate__fadeInDown grid max-w-6xl gap-8 px-4 sm:grid-cols-2 lg:grid-cols-3">
 				<!-- Card 1 -->
 				<article
 					class="group relative mx-auto flex w-full max-w-[420px] flex-col rounded-lg border bg-white p-12 shadow-lg min-h-[500px] transition-colors dark:border-gray-700 dark:bg-[#1C2136] dark:shadow-none text-base">
@@ -1167,85 +1287,339 @@
 		</div>
 	</section>
 
-	<!-- Send a message -->
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	<!-- ========== 3. CONTACT ========== -->
+	<section class="trusted py-4">
+		<div class="container relative wow animate__animated animate__fadeInDown z-1 mx-auto rounded-lg bg-blue-100 py-12 dark:bg-[#1c2136]">
 
+			<!-- sáng (light) giữ nguyên,   tối (dark) làm mờ phần trên -->
+			<div class="absolute inset-0 -z-1 h-2/3 w-full rounded-lg
+			   bg-gradient-to-t from-white to-[#dee7ff47]
+			   dark:bg-gradient-to-b dark:from-[#292e45]/80 dark:to-transparent">
+			</div>
 
+			<!-- Dotted background -->
+			<img alt="" class="absolute inset-0 h-full w-full -z-10 dark:hidden" src="./img/shape-dotted-light-02.svg">
+			<img alt="" class="absolute inset-0 h-full w-full -z-10 hidden dark:block"
+				src="./img/shape-dotted-dark-02.svg">
 
+			<!-- Content wrapper -->
+			<div class="flex flex-col-reverse gap-6 px-6 md:flex-row md:justify-between lg:px-10">
 
+				<!-- Contact Form -->
+				<div class="contact-form-box w-full rounded-lg bg-white p-6 shadow-md
+				 dark:border dark:border-gray-700 dark:bg-[#181c31]
+				 md:w-3/5 lg:w-2/3 xl:w-3/5">
+					<h2 class="mb-8 text-2xl font-semibold text-black dark:text-white">
+						Send a message
+					</h2>
 
+					<form action="https://formbold.com/s/unique_form_id" method="POST">
+						<!-- Row 1 -->
+						<div class="flex flex-col gap-6 lg:flex-row lg:justify-between lg:gap-8">
+							<input type="text" placeholder="Full name" class="w-full border-b border-stroke bg-transparent pb-2 text-sm
+							focus:border-waterloo focus-visible:outline-none
+							dark:border-strokedark dark:focus:border-manatee lg:w-1/2">
+							<input type="email" placeholder="Email address" class="w-full border-b border-stroke bg-transparent pb-2 text-sm
+							focus:border-waterloo focus-visible:outline-none
+							dark:border-strokedark dark:focus:border-manatee lg:w-1/2">
+						</div>
 
+						<!-- Row 2 -->
+						<div class="mt-6 flex flex-col gap-6 lg:flex-row lg:justify-between lg:gap-8">
+							<input type="text" placeholder="Subject" class="w-full border-b border-stroke bg-transparent pb-2 text-sm
+							focus:border-waterloo focus-visible:outline-none
+							dark:border-strokedark dark:focus:border-manatee lg:w-1/2">
+							<input type="text" placeholder="Phone number" class="w-full border-b border-stroke bg-transparent pb-2 text-sm
+							focus:border-waterloo focus-visible:outline-none
+							dark:border-strokedark dark:focus:border-manatee lg:w-1/2">
+						</div>
 
+						<!-- Message -->
+						<div class="mt-6">
+							<textarea rows="3" placeholder="Message" class="w-full border-b border-stroke bg-transparent pb-2 text-sm
+							   focus:border-waterloo focus-visible:outline-none
+							   dark:border-strokedark dark:focus:border-manatee"></textarea>
+						</div>
+
+						<!-- Checkbox + Button -->
+						<div class="mt-6 flex items-center justify-between">
+							<label
+								class="flex cursor-pointer select-none items-center text-xs text-gray-600 dark:text-gray-400">
+								<input type="checkbox" class="mr-2 h-4 w-4 accent-blue-600">
+								By clicking Checkbox, you agree to use our "Form" <br />
+								terms and consent cookie usage in browser.
+							</label>
+
+							<button aria-label="send message" class="inline-flex items-center gap-2 rounded-full bg-black px-4 py-2
+							 text-sm font-medium text-white hover:bg-gray-800
+							 dark:bg-[#292e45] dark:hover:bg-[#32385a]">
+								Send Message
+								<svg class="h-3 w-3 fill-white" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z" />
+								</svg>
+							</button>
+						</div>
+					</form>
+				</div>
+
+				<!-- Contact Info -->
+				<div class="contact-info w-full md:w-2/5 md:pl-6 lg:w-1/4">
+					<h3 class="mb-6 text-2xl font-semibold text-black dark:text-white">
+						Find us
+					</h3>
+
+					<div class="mb-4">
+						<h4 class="mb-1 text-sm font-medium text-black dark:text-white">Our Location</h4>
+						<p class="text-xs text-gray-600 dark:text-gray-400">
+							290 Maryam Springs 260, Courbevoie, Paris, France
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="mb-1 text-sm font-medium text-black dark:text-white">Email Address</h4>
+						<p>
+							<a href="#"
+								class="text-xs text-gray-600 hover:text-blue-700 dark:text-gray-400 dark:hover:text-[#406BFA]">
+								yourmail@domainname.com
+							</a>
+						</p>
+					</div>
+
+					<div>
+						<h4 class="mb-1 text-sm font-medium text-black dark:text-white">Phone Number</h4>
+						<p>
+							<a href="#"
+								class="text-xs text-gray-600 hover:text-blue-700 dark:text-gray-400 dark:hover:text-[#406BFA]">
+								+009 42334 6343 843
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- === BLOG & MENU  =============================================== -->
+<section
+  class=" wow animate__animated animate__fadeInDown overflow-hidden px-4 py-20 md:px-8 lg:py-25 xl:py-30 2xl:px-0
+         bg-[#f6f6f6] dark:bg-[#181C31]  transition-colors duration-300">
+  <div class="container relative mx-auto">
+    <!-- Title -->
+    <div
+      class="wow animate__animated animate__fadeInDown flex flex-col items-center gap-5 pb-10">
+      <h3
+        class="inline-block rounded-full border border-gray-200 px-4 py-1 text-sm
+               bg-[#EDF5FF] text-black
+               dark:bg-[#252A42] dark:text-white dark:border-gray-700">
+        NEWS &amp; BLOGS
+      </h3>
+
+      <h1
+        class="text-center text-5xl font-bold
+               text-black dark:text-white">
+        Latest News &amp; Blogs
+      </h1>
+
+      <p
+        class="mx-auto text-center md:w-4/5 lg:w-3/5 xl:w-[46%]
+               text-gray-600 dark:text-gray-400">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis
+        tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in
+        maximus.
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="grid gap-6 md:grid-cols-3">
+      <!-- Card 1 -->
+      <article
+        class="group overflow-hidden rounded-lg shadow-lg transform
+               bg-white dark:bg-[#1F263E] transition-colors duration-300">
+        <a href="#" class="block relative overflow-hidden">
+          <img
+            src="img/menublog1.webp"
+            alt="Blog Image 1"
+            class="h-48 w-full object-cover transition-transform duration-300
+                   group-hover:scale-110 group-hover:-translate-y-2" />
+        </a>
+
+        <div class="p-6">
+          <h2
+            class="mb-2 text-xl font-semibold
+                   text-black group-hover:text-[#007bff]
+                   dark:text-white dark:group-hover:text-[#007bff] transition-colors">
+            <a href="">Exploring MERN Stack: Powering the Modern Web...</a>
+          </h2>
+          <p class="text-gray-600 dark:text-gray-400">
+            In the world of web development, staying ahead of the curve is
+            crucial. One technology stack that has...
+          </p>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article
+        class="group overflow-hidden rounded-lg shadow-lg transform
+               bg-white dark:bg-[#1F263E] transition-colors duration-300">
+        <a href="#" class="block relative overflow-hidden">
+          <img
+            src="img/menublog2.webp"
+            alt="Blog Image 2"
+            class="h-48 w-full object-cover transition-transform duration-300
+                   group-hover:scale-110 group-hover:-translate-y-2" />
+        </a>
+
+        <div class="p-6">
+          <h2
+            class="mb-2 text-xl font-semibold
+                   text-black group-hover:text-[#007bff]
+                   dark:text-white dark:group-hover:text-[#007bff] transition-colors">
+            <a href="#">Best UI components for modern website...</a>
+          </h2>
+          <p class="text-gray-600 dark:text-gray-400">
+            Duis ante lorem, vulputate vel velit eu, sagittis rhoncus dolor.
+            Suspendisse eu est nec elit...
+          </p>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article
+        class="group overflow-hidden rounded-lg shadow-lg transform
+               bg-white dark:bg-[#1F263E] transition-colors duration-300">
+        <a href="#" class="block relative overflow-hidden">
+          <img
+            src="img/menublog3.webp"
+            alt="Blog Image 3"
+            class="h-48 w-full object-cover transition-transform duration-300
+                   group-hover:scale-110 group-hover:-translate-y-2" />
+        </a>
+
+        <div class="p-6">
+          <h2
+            class="mb-2 text-xl font-semibold
+                   text-black group-hover:text-[#007bff]
+                   dark:text-white dark:group-hover:text-[#007bff] transition-colors">
+            <a href="#">The Power of UI/UX: Elevating Digital Ex...</a>
+          </h2>
+          <p class="text-gray-600 dark:text-gray-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit
+            amet dictum neque, laoreet dolor...
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- ========== FOOTER ==========-->
+<footer class="relative bg-white text-gray-600 dark:bg-[#0f1428] dark:text-gray-400">
+
+	<div class="mx-auto max-w-7xl px-4 py-5 lg:px-6">
+
+	  <div class="grid gap-12 md:grid-cols-12">
+
+		<div class="md:col-span-4">
+		  <!-- logo -->
+		  <div class="relative mb-6 h-[30px] w-[119px]">
+			<img src="./img/logo-dark.svg" alt="Solid logo"
+				 class="absolute inset-0 hidden h-full w-full dark:block">
+			<img src="./img/logo-light.svg" alt="Solid logo"
+				 class="absolute inset-0 h-full w-full dark:hidden">
+		  </div>
+  
+		  <p class="mb-8 max-w-xs text-sm leading-relaxed">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		  </p>
+  
+		  <span class="block text-xs tracking-[.2em] text-gray-500 uppercase mb-1">
+			Contact
+		  </span>
+		  <a href="mailto:hello@solid.com"
+			 class="text-lg font-semibold text-black hover:text-[#007bff] dark:text-white">
+			hello@solid.com
+		  </a>
+		</div>
+		<div class="md:col-span-2">
+		  <h3 class="mb-4 font-semibold text-black dark:text-white">Quick Links</h3>
+		  <ul class="space-y-3">
+			<li><a class="footer-link" href="#">Home</a></li>
+			<li><a class="footer-link" href="#">Product</a></li>
+			<li><a class="footer-link" href="#">Careers</a></li>
+			<li><a class="footer-link" href="#">Pricing</a></li>
+		  </ul>
+		</div>
+		<div class="md:col-span-3">
+		  <h3 class="mb-4 font-semibold text-black dark:text-white">Support</h3>
+		  <ul class="space-y-3">
+			<li><a class="footer-link" href="#">Company</a></li>
+			<li><a class="footer-link" href="#">Press media</a></li>
+			<li><a class="footer-link" href="#">Our Blog</a></li>
+			<li><a class="footer-link" href="#">Contact Us</a></li>
+		  </ul>
+		</div>
+		<div class="md:col-span-3">
+		  <h3 class="mb-4 font-semibold text-black dark:text-white">Newsletter</h3>
+		  <p class="mb-4 text-sm">Subscribe to receive future updates</p>
+  
+		  <form class="flex w-full max-w-sm overflow-hidden rounded-full border
+					   border-gray-300 focus-within:border-[#007bff] dark:border-gray-600">
+			<input type="email" required placeholder="Email address"
+				   class="flex-1 bg-transparent px-5 py-3 text-sm
+						  placeholder-gray-500 focus:outline-none
+						  text-gray-600 dark:text-gray-300" />
+			<button type="submit"
+					class="flex h-12 w-12 shrink-0 items-center justify-center
+						   bg-[#007bff] transition hover:bg-[#0063e0]">
+			  <svg class="h-4 w-4 text-white" viewBox="0 0 14 14" fill="currentColor">
+				<path d="M10.48 6.17 6.01 1.7 7.19.52 13.67 7 7.19 13.48
+						 6.01 12.3 10.48 7.83H.33V6.17h10.15Z"/>
+			  </svg>
+			</button>
+		  </form>
+		</div>
+  
+	  </div>
+	  <hr class="mt-16 border-t border-gray-200 dark:border-[#2d334d]/60" />
+  
+	  <div class="flex flex-col gap-4 py-6 text-sm md:flex-row md:items-center">
+		<ul class="flex shrink-0 gap-6">
+		  <li><a class="footer-link" href="#">English</a></li>
+		  <li><a class="footer-link" href="#">Privacy Policy</a></li>
+		  <li><a class="footer-link" href="#">Support</a></li>
+		</ul>
+		<p class="flex-1 text-center text-gray-500 dark:text-gray-500">
+		  © 2025 Solid. All rights reserved
+		</p>
+		<ul class="flex shrink-0 justify-end gap-6">
+		  <li><a aria-label="Facebook" class="footer-social fab fa-facebook-f" href="#"></a></li>
+		  <li><a aria-label="Twitter"  class="footer-social fab fa-twitter"    href="#"></a></li>
+		  <li><a aria-label="LinkedIn" class="footer-social fab fa-linkedin-in"href="#"></a></li>
+		  <li><a aria-label="Behance"  class="footer-social fab fa-behance"    href="#"></a></li>
+		</ul>
+	  </div>
+	</div>
+	<!-- back to top  -->
+	<a href="#"
+	   id="toTop"
+	   class="fixed bottom-8 right-8 flex h-10 w-10 items-center justify-center
+			  rounded-md bg-[#007bff] text-white shadow-lg transition
+			  hover:bg-[#0063e0]">
+	  <svg class="h-4 w-4" viewBox="0 0 14 14" fill="currentColor">
+		<path d="M7 3.05 12.48 8.53 11.3 9.71 7 5.41 2.7 9.71 1.52 8.53 7 3.05Z"/>
+	  </svg>
+	</a>
+  </footer>
 	<!-- SCRIPT -->
-
+	<script>
+		const toTop = document.getElementById('toTop');
+		toTop.addEventListener('click', e=>{
+		  e.preventDefault();
+		  window.scrollTo({ top:0, behavior:'smooth' });
+		});
+	  </script>
+	  
 	<script src="js/wow.min.js"></script>
 	<script>
 		new WOW().init();
@@ -1278,8 +1652,6 @@
 			}
 		});
 	</script>
-
-
 	<script>
 		document.addEventListener("DOMContentLoaded", () => {
 			const searchInput = document.getElementById("default-search");
@@ -1310,7 +1682,6 @@
 			});
 		});
 	</script>
-
 	<!-- Swiper JS (bổ sung) -->
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script>
@@ -1326,9 +1697,6 @@
 			}
 		});
 	</script>
-
 	<script src="js/switch_tab.js"></script>
-
 </body>
-
 </html>
