@@ -84,3 +84,33 @@
 }
 
 /* SOLUTIONS */
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 9999px;
+    background: #d4d4d4;
+    opacity: 1;
+    margin: 0 6px;
+    transition: all .3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 30px;
+    background: #007bff;
+  }
+  .swiper-pagination {
+    margin-top: 50px !important;
+    position: relative;
+  }
+  .contact-form-box {
+    min-height: 450px; /* Adjust this value to make it taller */
+}
+  /* FOOTER  */
+  .footer-link:hover {
+    color: #007bff;
+  }
+
+  /* Hover effect for social icons */
+  .footer-social:hover {
+    color: #007bff;
+  }
